@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR It!</title>
+    <!-- Estilos e Scripts -->
+    <link rel="stylesheet" href="css/style.css" media="all" />
+    <script src="scripts/main.js" defer></script>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Metas de Descrição -->
+    <meta name="author" content="Lucas Celli">
+    <meta name="robots" content="index, follow, max-snippet: -1, max-image-preview:large, max-video-preview: -1" />
+    <!-- Ícones -->
+    <link rel="icon" href="img/qr.png" sizes="32x32" />
+    <meta name="application-name" content="QR It!" />
+</head>
+
+<body>
+
+    <h1 class="main-title">QR_It!</h1>
+
+    <div class="container">
+        <form class="form-qr">
+            <input type="url" id="genqr" class="genqr" required placeholder="Insira aqui um link para gerar o QR">
+            <button type="submit" class="generate-btn">Gerar</button>
+        </form>
+
+        <img class="qrfinal" src="img/qr.png" alt="QR Gerado" />
+    </div>
+
+    <!-- Estilo de Impressão -->
+    <link rel="stylesheet" href="css/print.css" media="print" />
+</body>
+
+</html>
