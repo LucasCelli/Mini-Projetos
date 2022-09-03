@@ -1,14 +1,7 @@
-# HTML5 Basic Template
-Fiz pra eu mesmo usar quando iniciar novos projetos, mas se quiser também vá em frente :)
-
-I've created this for personal use but if you want, go ahead :)
-
-## Usando/Usage
-Copie e cole no terminal: / Copy and paste in terminal:
-```
-git clone https://github.com/LucasCelli/html5.git .
-```
+# QR Code Generator / Gerador de Códigos QR
+This is a simple QR Code generator usig QRTag API.
+É um simples gerador de código QR usando a API QRTag.
 
 É isso :D
 Thats it :D
-* [Visite meu site](http://lusca.me/)
+* [www.lucascelli.com](www.lucascelli.com)
