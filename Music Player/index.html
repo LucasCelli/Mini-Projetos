@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celli's Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+    <div class="player">
+        <div class="player-cover">
+            <audio controls class="track">
+                <source src="audio/Nico Collins - Alone.mp3" type="audio/mpeg"></source>
+            </audio>
+        </div>
+        <div class="player-control">
+            <span class="prev"></span>
+            <span class="play-pause"><i class="las la-play"></i></span>
+            <span class="next"></span>
+        </div>
+    </div>
+
+    <script>
+        const play = document.querySelector('.play-pause');
+        const audio = document.querySelector('.track');
+        let playing = false;
+
+        play.addEventListener('click', function(){
+            if (!playing){
+                playing = true;
+                play.innerHTML = '<i class="las la-pause"></i>';
+                audio.play();
+            }else if(playing = true){
+                playing = false;
+                play.innerHTML = '<i class="las la-play"></i>';
+                audio.pause();
+            }
+        });
+        
+    </script>
+</body>
+
+</html>
