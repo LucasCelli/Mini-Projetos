@@ -1,3 +1,5 @@
+![Alt text](gitcover.png?raw=true "Title")
+
 # JS Music Player
 Music player created using HTML5 and JavaScript.
 
