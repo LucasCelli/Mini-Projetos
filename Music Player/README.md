@@ -1,4 +1,4 @@
-![Alt text](gitcover.png?raw=true "Title")
+![Repository Cover](gitcover.png?raw=true "Repository Cover")
 
 # JS Music Player
 Music player created using HTML5 and JavaScript.
