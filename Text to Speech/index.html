@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto para Fala</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="https://lucascelli.com/js/celli.js"></script>
+</head>
+
+<body>
+
+    <main class="container">
+        <h2>Conversor de Texto para Fala</h2>
+        <div class="text-section">
+            <label for="text">Mensagem:</label>
+            <textarea id="text" cols="30"
+                rows="10">Olá! Esse texto pode ser convertido em voz natural caso esteja usando um navegador atualizado da Microsoft, mas não se preocupe! Mesmo em outros navegadores a lista de vozes abaixo será atualizada dinamicamente para trazer as opções disponíveis!</textarea>
+        </div>
+        <div class="voice-section">
+            <label for="voice">Idioma de Voz:</label>
+            <select name="" id="voice">
+                <option value="Microsoft Francisca Online (Natural) - Portuguese (Brazil)">Microsoft Francisca Online
+                    (Natural) - Portuguese (Brazil)</option>
+            </select>
+        </div>
+        <button type="submit" class="submit">Converter para Voz</button>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
