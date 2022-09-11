@@ -1,4 +1,4 @@
-[![Repository Cover](gitcover.png?raw=true "Repository Cover")](https://htmlpreview.github.io/?https://github.com/LucasCelli/Mini-Projetos/blob/master/Speech%20to%20Text/index.html)
+[![Repository Cover](gitcover.gif?raw=true "Repository Cover")](https://htmlpreview.github.io/?https://github.com/LucasCelli/Mini-Projetos/blob/master/Speech%20to%20Text/index.html)
 
 ## Preview:
 [Live Preview](https://htmlpreview.github.io/?https://github.com/LucasCelli/Mini-Projetos/blob/master/Speech%20to%20Text/index.html)
