@@ -3,7 +3,7 @@
 ## Preview:
 [Live Preview](https://htmlpreview.github.io/?https://github.com/LucasCelli/Mini-Projetos/blob/master/Speech%20to%20Text/index.html)
 
-# Word Counter
+# Speech to Text
 Convert the microphone speech into text.
 
 É isso :D
